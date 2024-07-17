@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "dev": "tsx server/index.js",
+        "build": "vite build",
+        "prod": "pnpm run build && NODE_ENV=production node dist/server/index.mjs"
+    },
+    "type": "module",
+    "dependencies": {
+        "express": "4.19.2",
+        "vike": "0.4.180",
+        "vite": "5.3.4",
+        "tsx": "4.16.2"
+    }
+}
